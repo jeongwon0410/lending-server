@@ -23,6 +23,6 @@ export class Lending {
   @Column({ type: 'int', default: 0 })
   total: number;
 
-  @Column({ type: 'varchar' })
+  @Column({ type: 'varchar', default: '' })
   referralLink: number;
 }
