@@ -5,7 +5,7 @@ export class Lending {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ type: 'int', default: 1 })
+  @Column({ type: 'int', default: 0 })
   rank: number;
 
   @Column({ type: 'varchar' })
